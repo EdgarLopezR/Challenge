@@ -1,0 +1,121 @@
+*{
+    background:#E5E5E5;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 10%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text{
+    /*border: none;*/
+    border-width: 5px;
+    border-radius: 24px;
+    border-color: #0A3871;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    
+}
+::placeholder{color: #0A3871}
+.text:focus{
+    border-color: #dc143c;
+   
+}
+.area_copiar{
+    background: white;
+    background-image: url("imagenes/assistant.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 180px;
+    position: absolute;
+    
+}
+.area_copiar:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top:18px;
+}
+.btn_desencriptar{
+    background-color: #d8dce2;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.btn_encriptar:hover{
+    border-color:#dc143c;
+    border-width: 5px;
+}
+
+.btn_encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#d2d9e2;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px; 
+}
+.btn_desencriptar:hover{
+    border-color: #0A3871;
+    border-width: 5px;
+}
+.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 128px;
+    margin-top: 580px;
+    position: absolute;
+    width: 328px; 
+}
+.copiar:hover{
+    border-color: #0A3871;
+    border-width: 5px;
+}
+.info{
+    color: #495057;
+    font-size:18px;
+}
+footer{
+    text-align: center;
+    align-content: center;
+    background-color: #48d1cc;
+    padding: 40px;
+}
+.images{
+    display:flex;
+    justify-content: center;
+    background-color: #48d1cc;
+}
+.links{
+    width: 80px;
+    background-color: #48d1cc;
+}
+.nombre{
+    background-color: #48d1cc;
+    
+}
